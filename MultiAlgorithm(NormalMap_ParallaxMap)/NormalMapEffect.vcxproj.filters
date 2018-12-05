@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1ac6036e-ae17-4711-89bf-f6b80c0f93bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{1a289283-a5f8-418e-bac8-bddd4d015a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderTechnique">
+      <UniqueIdentifier>{eb8d59b7-0db0-4aa0-9be0-a5afad832315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6f62663c-7329-45c4-86d7-db28b5a91b0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="GUI.xml" />
+    <Xml Include="RenderEngine.xml" />
+    <Xml Include="Scene.xml" />
+    <Xml Include="RenderTechnique\MultiAlgorithm%28NormalMap_ParallaxMap%29.xml">
+      <Filter>RenderTechnique</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MultiAlgorithm%28NormalMap_ParallaxMap%29Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\fragPerpixelShading.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shader\vertPerpixelShading.glsl">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\MultiAlgorithm%28NormalMap_ParallaxMap%29Component.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

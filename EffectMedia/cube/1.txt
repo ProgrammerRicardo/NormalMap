@@ -1,0 +1,11 @@
+  map_Kd CliffRock_albedo.jpg
+  map_Ks CliffRock_height.jpg
+  map_Bump CliffRock_normal.jpg
+  
+  map_Kd bricks2.jpg
+  map_Ks bricks2_disp.jpg
+  map_Bump bricks2_normal.jpg
+  
+  map_Kd PineBark_albedo.jpg
+  map_Ks PineBark_height.jpg
+  map_Bump PineBark_normal.jpg
