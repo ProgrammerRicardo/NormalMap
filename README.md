@@ -7,7 +7,7 @@
 [概念](http://www.ricardoblog.xyz/posts/4ff5c56c/)
 
 
-效果图：
+简单效果图：
 
 ![texture.png](https://upload-images.jianshu.io/upload_images/3868925-c8a3665e962d2806.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
